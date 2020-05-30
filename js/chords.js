@@ -572,4 +572,4 @@ const aA=u({xo:0},"com.raquo.laminar.api.Laminar$",{xo:1,b:1,wo:1,pw:1,Ov:1,Xv:1
 (function(a){var b=Hl(a.rk,a.qk),c=Ob(),d=Xz(),e=[(y(),new Ub("Chords and Scales"))];d=z(d,new C(e));e=Yb();var f=Zb(),g=Yz(),h=[(y(),new Ub("Root note"))];g=z(g,new C(h));h=Yz();var l=[(y(),new Ub("Mode"))];g=[g,z(h,new C(l))];f=z(f,new C(g));g=Zb();h=$b();l=[Nb(a)];h=z(h,new C(l));l=$b();const p=[Xb(a)];h=[h,z(l,new C(p))];f=[f,z(g,new C(h))];e=z(e,new C(f));f=Ob();g=[gc(a,b)];f=z(f,new C(g));g=Ob();b=[mc(a,b)];b=[d,e,f,z(g,new C(b))];c=z(c,new C(b));y();b=bc().querySelector("#appContainer");new Co(b,
 c);c=cc();a=[dc(new ec,a.lf.of,"Major"),dc(new ec,a.mf.of,"C")];fc(c,new C(a));bc().addEventListener("keydown",r=>{Qb();{var x=Qb();const A=r.keyCode|0;vb().jn===A?ac(Hc(Pb(),x.eg,!1),x.mf,r):vb().fn===A?ac(Hc(Pb(),x.eg,!0),x.mf,r):vb().hn===A?ac(Jc(Pb(),x.dg,!0),x.lf,r):vb().gn===A&&ac(Jc(Pb(),x.dg,!1),x.lf,r)}},!0)})(Qb());
 }).call(this);
-//# sourceMappingURL=chords2-opt.js.map
+//# sourceMappingURL=chords.js.map

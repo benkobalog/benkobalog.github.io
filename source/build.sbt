@@ -12,3 +12,5 @@ libraryDependencies ++= Seq(
   "com.raquo" %%% "laminar" % "0.9.1",
   "org.scalatest" %%% "scalatest" % "3.1.2" % "test"
 )
+
+artifactPath in(Compile, fullOptJS) := baseDirectory.value / ".." / "js" / "chords.js"
