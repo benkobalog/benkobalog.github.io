@@ -1,0 +1,227 @@
+/* General layout */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f3f7fa;
+    margin: 0;
+    padding: 0;
+    color: #1c2237;
+}
+
+#app {
+    max-width: 800px;
+    margin: 36px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(32, 64, 96, 0.1), 0 1.5px 6px rgba(32, 64, 96, 0.06);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    color: #246ba6;
+}
+h2 {
+    margin-top: 28px;
+    margin-bottom: 14px;
+    font-size: 1.3rem;
+    color: #345678;
+    letter-spacing: 1.5px;
+    border-left: 4px solid #4bb7e6;
+    padding-left: 10px;
+    background: #f6fbfe;
+}
+h3, h4 {
+    margin-top: 20px;
+    color: #246ba6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+h4 {
+    font-size: 1.1rem;
+    margin-left: 8px;
+}
+
+/* Section colors */
+.Rule.Changes p {
+    border-left: 3px solid #729251;
+    background: #d1e6b540;
+}
+.Rule.Changes h3 {
+    background: #d1e6b5;
+}
+
+.Loss.Condition p {
+    border-left: 3px solid #9366a5;
+    background: #d6b5e63f;
+}
+.Loss.Condition h3 {
+    background: #d2b5e6;
+}
+
+.Ravage p {
+    border-left: 3px solid #da5661;
+    background: #ea5f800d;
+}
+.Ravage h3 {
+    background: #b85153;
+    color: #eae6ed
+}
+
+.After.Ravage p {
+    border-left: 3px solid #36014b;
+    background: #b8b5b927;
+}
+.After.Ravage h3 {
+    background: #201a25;
+    color: #eae6ed
+}
+
+.High.Immigration p,
+.Build p {
+    border-left: 3px solid #4674bd;
+    background: #7aa1f517;
+}
+.High.Immigration h3,
+.Build h3 {
+    background: #5d7eec;
+    color: #ffffff
+}
+
+.After.Build p {
+    border-left: 3px solid #8ec8cd;
+    background: #63cae10c;
+}
+.After.Build h3 {
+    background: #23a7f3;
+}
+
+.Explore p {
+    border-left: 3px solid #eee7a9;
+    background: #cee83c17;
+}
+.Explore h3 {
+    background: #f0eca6;
+}
+
+/* Button Groups */
+div > div > h2 + button {
+    margin-bottom: 0;
+}
+div > div > h2 + button {
+    margin-top: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: #f0f6fa;
+    color: #246ba6;
+    font-weight: 600;
+    font-size: 1.08rem;
+    padding: 12px 22px;
+    margin: 7px 7px 7px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.17s, color 0.17s, box-shadow 0.17s;
+    box-shadow: 0 1px 3px rgba(32,64,96,0.07);
+}
+button:hover,
+button:focus {
+    background: #d3e8f7;
+    color: #17405f;
+}
+button[style*="background-color: lightblue"] {
+    background: #4bb7e6 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 8px rgba(75,183,230,0.09);
+}
+button[style*="background-color: lightblue"]:hover,
+button[style*="background-color: lightblue"]:focus {
+    background: #189bd2 !important;
+}
+
+/* Section separation */
+#app > div > div {
+    margin-bottom: 36px;
+}
+#app > div > div > h2 {
+    margin-bottom: 12px;
+}
+
+/* Info blocks */
+p, h4 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: #f0f6fa;
+    border-radius: 6px;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+h4 {
+    margin-bottom: 6px;
+    color: #426b81;
+}
+
+ul, ol {
+    margin: 10px 0 10px 30px;
+}
+
+/* Rule details and icon formatting */
+p {
+    padding-left: 12px;
+    border-left: 3px solid #45b3df;
+    margin-bottom: 7px;
+    background: #fafdff;
+}
+p:has(img), p:has(.icon), p:has(.fa) {
+    background: #f7f5ff;
+    border-left-color: #bda9e6;
+}
+p strong {
+    color: #246ba6;
+}
+
+@media (max-width: 600px) {
+    #app {
+        max-width: 98vw;
+        margin: 0;
+        padding: 8vw 2vw;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    h1 {
+        font-size: 1.35rem;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 1.08rem;
+        padding-left: 6px;
+    }
+    h3, h4 {
+        font-size: 1rem;
+        padding-left: 3px;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px 14px;
+        margin: 5px 5px 5px 0;
+    }
+    p {
+        font-size: 0.97rem;
+        padding-left: 7px;
+    }
+}
