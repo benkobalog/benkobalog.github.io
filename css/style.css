@@ -194,9 +194,8 @@ button[style*="background-color: lightblue"]:focus {
   background: #f0eca6;
 }
 
+
 .rules {
-    /* background-color: #c7cdd131; */
-    /* border: solid 1px; */
     box-shadow: 7px 7px 10px 1px #00000022;
     padding: 6px;
 }
