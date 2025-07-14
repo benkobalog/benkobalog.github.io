@@ -194,6 +194,15 @@ button[style*="background-color: lightblue"]:focus {
   background: #f0eca6;
 }
 
+.Setup p {
+  border-left-color: #45b3df;
+  background: #fafdff;
+}
+
+.Setup h3 {
+  background: #f0f6fa;
+}
+
 
 .rules {
     box-shadow: 7px 7px 10px 1px #00000022;
