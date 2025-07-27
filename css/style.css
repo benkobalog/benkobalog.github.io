@@ -108,6 +108,15 @@ button {
   box-shadow: 0 1px 3px rgba(32, 64, 96, 0.07);
 }
 
+.compactViewButton {
+  background-color: #dddf7a7c;
+}
+
+.compactViewButton:hover,
+.compactViewButton:focus {
+  background-color: #ecc919a7;
+}
+
 button:hover,
 button:focus {
   background: #d3e8f7;
